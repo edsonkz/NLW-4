@@ -1,13 +1,11 @@
-import express, { response } from 'express';
+import 'reflect-metadata';
+import './database';
+import express, { json } from 'express';
+import { router } from './routes';
 
 const app = express();
 
-app.get('/', (req, res, next)=> {
-    return res.json({message:"Hello, World!"});
-})
+app.use(express.json());
+app.use(router);
 
-app.post('/', (req, res, next)=> {
-    return res.json({message:"Testando POST!"});
-})
-
-app.listen(3333);
+app.listen(3333, () => {console.log("Server is running on PORT 3333...")});
