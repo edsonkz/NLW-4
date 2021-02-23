@@ -1,0 +1,40 @@
+Arguments: 
+  /home/edsoncavalcante/Desenvolvimento/Plataforma/nodejs/14.15.4/bin/node /home/edsoncavalcante/Desenvolvimento/Plataforma/nodejs/14.15.4/bin/yarn add express
+
+PATH: 
+  /home/edsoncavalcante/Desenvolvimento/Plataforma/mongoDB/linux-x86_64-rhel80-4.4.4/bin:/home/edsoncavalcante/Desenvolvimento/Plataforma/nodejs/14.15.4/bin:/home/edsoncavalcante/Desenvolvimento/Plataforma/OpenJDK/15.0.2/bin:/home/edsoncavalcante/Desenvolvimento/ide/netbeans/bin:/home/edsoncavalcante/Desenvolvimento/ide/android_studio/bin:/home/edsoncavalcante/Desenvolvimento/ide/visual_studio/bin:/home/edsoncavalcante/.local/bin:/home/edsoncavalcante/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/var/lib/snapd/snap/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.4
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/express: tunneling socket could not be established, statusCode=407
+      at ClientRequest.onConnect (/home/edsoncavalcante/Desenvolvimento/Plataforma/nodejs/14.15.4/lib/node_modules/yarn/lib/cli.js:152224:19)
+      at Object.onceWrapper (events.js:422:26)
+      at ClientRequest.emit (events.js:315:20)
+      at Socket.socketOnData (_http_client.js:547:11)
+      at Socket.emit (events.js:315:20)
+      at addChunk (internal/streams/readable.js:309:12)
+      at readableAddChunk (internal/streams/readable.js:284:9)
+      at Socket.Readable.push (internal/streams/readable.js:223:10)
+      at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+
+npm manifest: 
+  {
+    "name": "api",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
