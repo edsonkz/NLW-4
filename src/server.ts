@@ -10,4 +10,4 @@ app.post('/', (req, res, next)=> {
     return res.json({message:"Testando POST!"});
 })
 
-app.listen(3333)
+app.listen(3333);
